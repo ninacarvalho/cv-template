@@ -1,0 +1,29 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+.metadata_never_index
+.Spotlight-V100
+.Trashes
+
+# VS Code settings
+.vscode/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bak
+*.backup
+
+# Generated PDF and build output
+*.pdf
+build/

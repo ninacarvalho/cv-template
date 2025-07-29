@@ -1,0 +1,52 @@
+\documentclass[11pt]{article}
+
+% Packages
+\usepackage[margin=0.8in]{geometry}
+\usepackage{fontawesome}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fontawesome}
+\usepackage{parskip}
+\usepackage{multicol}
+\usepackage{longtable}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+
+\input{components/professional_experience}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}[\titlerule]
+
+\begin{document}
+
+% Header
+\input{components/header}
+\vspace{1em}
+
+% Summary
+I'm a backend-focused Software Developer who loves clean code, cats, and teamwork...
+
+\vspace{1em}
+
+\input{components/core_competencies}
+
+\vspace{0.5em}
+
+% \section*{Professional Experience}
+
+\input{sections/professional_experience}
+
+\vspace{1em}
+
+\section*{Education}
+
+\textbf{Educational Institution 02, Country} \\
+Postgraduate Certificate in Information Technology Solutions, 2023 – 2025 \\
+
+\textbf{Educational Institution 01, Country} \\
+Bachelor of Computer Science, 2017 – 2022
+
+\end{document}
