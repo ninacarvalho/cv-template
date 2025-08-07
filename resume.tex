@@ -14,13 +14,17 @@
 \usepackage{longtable}
 \usepackage{fontspec}
 \setmainfont{Times New Roman}
-
 \input{components/professional_experience}
+\usepackage[none]{hyphenat}
 
 % Section formatting
 \titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}
 
 \begin{document}
+\pagestyle{empty}
+\raggedright
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
 
 % Header
 \input{components/header}
