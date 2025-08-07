@@ -1,9 +1,10 @@
 % components/professional_experience.tex
-% % \experience{<Job Title>}{<Date Range>}{<Company, Location>}{<Responsibilities>}
+% #1: Job Title; #2: Date Range
+% #3: Company, Location
+% #4: Responsibilities
 \newcommand{\experience}[4]{
   \textbf{#1} \hfill #2\\
-  \textit{#3} \\
-   \vspace{-1.5em}
+  \textit{#3} \\[0.2em]
   \begin{itemize}[leftmargin=1.2em]
     #4
   \end{itemize}
